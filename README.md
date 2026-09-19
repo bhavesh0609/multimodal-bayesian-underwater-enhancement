@@ -22,4 +22,4 @@ Original repository: https://github.com/BinCVER/BEM
 
 🚧 **Repository under construction...**
 
-The code is currently being assembled. Please excuse the occasional missing pieces — they're probably under Bayesian supervision. :)
+The code is currently being assembled. Please excuse the occasional missing pieces, they're probably under Bayesian supervision. :)
