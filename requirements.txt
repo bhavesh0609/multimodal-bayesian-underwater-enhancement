@@ -1,0 +1,6 @@
+# MM-BEM runtime dependencies for Python 3.10.
+# Install the CUDA or CPU PyTorch wheel described in README.md first.
+torch==2.5.1
+numpy==1.26.4
+Pillow==10.4.0
+matplotlib==3.9.2

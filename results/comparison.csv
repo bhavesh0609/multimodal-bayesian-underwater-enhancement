@@ -1,0 +1,3 @@
+method,dataset,psnr_db,ssim,source,protocol
+BEM-MC,UIEB-R90,23.920,0.913,Huang et al. Table 2,Monte Carlo
+MM-BEM,UIEB (team split unconfirmed),19.453,0.868,Team 21 report Table 1,Historical protocol unconfirmed; supplied evaluator selects highest PSNR of 150

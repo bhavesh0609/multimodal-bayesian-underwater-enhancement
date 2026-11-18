@@ -1,0 +1,36 @@
+{
+  "paths": {
+    "data_root": "data/UIEB",
+    "checkpoint_dir": "experiments/mm_bem"
+  },
+  "model": {
+    "num_mixture_components": 3,
+    "sigma_init": 0.05,
+    "mixture_init_jitter": 0.01
+  },
+  "train": {
+    "seed": 1234,
+    "num_workers": 4,
+    "pin_memory": true,
+    "patch_size": 256,
+    "batch_size": 16,
+    "stage1_iterations": 18000,
+    "stage2_iterations": 18000,
+    "learning_rate": 0.0002,
+    "min_learning_rate": 1e-06,
+    "grad_clip_norm": 1.0,
+    "downsample_factor": 1,
+    "alpha": 0.025,
+    "kl_mc_samples": 5,
+    "adaptive_prior_decay": 0.998,
+    "save_every": 10000,
+    "log_every": 100
+  },
+  "eval": {
+    "num_workers": 2,
+    "downsample_factor": 16,
+    "mc_samples": 150,
+    "save_visuals": true,
+    "seed": 1234
+  }
+}
